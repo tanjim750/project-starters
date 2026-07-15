@@ -1,0 +1,1 @@
+"""Application health check helper."""

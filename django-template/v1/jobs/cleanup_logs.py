@@ -1,0 +1,1 @@
+"""Scheduled log cleanup job."""
