@@ -1,0 +1,100 @@
+:root {
+  color: #18202f;
+  background: #f6f1e8;
+  font-family:
+    ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #18202f;
+  color: #f6f1e8;
+  padding: 32px;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+.nav {
+  display: grid;
+  gap: 12px;
+}
+
+.nav a {
+  border: 1px solid rgb(246 241 232 / 18%);
+  border-radius: 999px;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.nav a.active {
+  background: #f2b84b;
+  color: #18202f;
+}
+
+.content {
+  padding: 48px;
+}
+
+.page {
+  max-width: 760px;
+}
+
+.page h1 {
+  font-size: clamp(40px, 7vw, 84px);
+  letter-spacing: -0.08em;
+  line-height: 0.9;
+  margin: 0 0 24px;
+}
+
+.button {
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  padding: 12px 18px;
+}
+
+.button-primary {
+  background: #18202f;
+  color: #f6f1e8;
+}
+
+.button-secondary {
+  background: #f2b84b;
+  color: #18202f;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.field input {
+  border: 1px solid #cdbf9d;
+  border-radius: 14px;
+  font: inherit;
+  padding: 12px 14px;
+}
